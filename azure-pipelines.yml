@@ -7,7 +7,7 @@ trigger:
 - none
 
 pool:
-  {{ pool }}
+  'windows-latest'
 strategy:
   matrix:
     Python27:
